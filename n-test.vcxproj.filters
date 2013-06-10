@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="public">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="project-info">
+      <UniqueIdentifier>{b20446d1-fb23-4715-9647-a42d938be7f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Filter>project-info</Filter>
+    </None>
+    <None Include="LICENSE.md">
+      <Filter>project-info</Filter>
+    </None>
+    <None Include="README">
+      <Filter>project-info</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>project-info</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="public\n-test\test-manager.hpp">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public\n-test\test-unit.hpp">
+      <Filter>public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source\main-template.txt" />
+  </ItemGroup>
+</Project>
