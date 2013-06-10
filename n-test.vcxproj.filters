@@ -10,16 +10,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="LICENSE">
-      <Filter>project-info</Filter>
-    </None>
     <None Include="LICENSE.md">
       <Filter>project-info</Filter>
     </None>
-    <None Include="README">
+    <None Include="README.md">
       <Filter>project-info</Filter>
     </None>
-    <None Include="README.md">
+    <None Include="LICENSE">
       <Filter>project-info</Filter>
     </None>
   </ItemGroup>
@@ -30,8 +27,5 @@
     <ClInclude Include="public\n-test\test-unit.hpp">
       <Filter>public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="source\main-template.txt" />
   </ItemGroup>
 </Project>

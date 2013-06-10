@@ -12,29 +12,6 @@
 #include <string>
 
 namespace Nova {
-	class NovaTestException : public std::exception {
-		std::string _message;
-
-	public:
-		inline NovaTestException(
-			) {
-			}
-
-		inline NovaTestException(
-			const std::string & message
-			)
-			: _message(message)
-			{
-			}
-		
-		inline NovaTestException(
-			const NovaTestException & other
-			)
-			: _message(other._message)
-			{
-			}
-	};
-
 namespace Test {
 	
 	class IUnitContext {

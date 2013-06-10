@@ -13,15 +13,11 @@
   <ItemGroup>
     <None Include="LICENSE" />
     <None Include="LICENSE.md" />
-    <None Include="README" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="public\n-test\test-manager.hpp" />
     <ClInclude Include="public\n-test\test-unit.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="source\main-template.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DD07A21A-C8CE-476D-B799-765FCB95571B}</ProjectGuid>
