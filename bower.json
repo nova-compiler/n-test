@@ -1,0 +1,11 @@
+{
+  "name": "n-test",
+  "version": "0.1.0",
+  "ignore": [
+    "**/.*",
+    "**/Debug",
+    "**/Release",
+    "**/Test",
+    "external-components"
+  ]
+}
