@@ -6,6 +6,9 @@
     "**/Debug",
     "**/Release",
     "**/Test",
+    "**/*.sdf",
+    "**/*.suo",
+ 	"**/*.user",
     "external-components"
   ]
 }
