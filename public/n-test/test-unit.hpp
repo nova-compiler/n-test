@@ -1,8 +1,8 @@
 //
-// unit-test.hpp
+// test-unit.hpp
 //
 // Copyright (c) 2013 Luis Garcia.
-// This source file is subject to terms of the MIT License. (See accompanying file license.txt)
+// This source file is subject to terms of the MIT License. (See accompanying file LICENSE)
 //
 
 #ifndef _NOVA_COMMON_UNIT_TEST_HEADER_
@@ -13,7 +13,7 @@
 
 namespace Nova {
 namespace Test {
-	
+
 	class IUnitContext {
 	public:
 		virtual void Accept(
@@ -66,7 +66,7 @@ namespace Test {
 	namespace Internal {
 		typedef void (* TestMethodFn) (TestContext & testContextName);
 	}
-	
+
 	/// <summary>
 	/// Utility class for the management of test units.
 	/// </summary>
